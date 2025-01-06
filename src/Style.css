@@ -1,0 +1,35 @@
+:root {
+  --bg-color: #121212;
+  --text-color: #ffffff;
+  --primary-color: #1e90ff;
+}
+
+/* Light theme */
+[data-theme="light"] {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --primary-color: #007bff;
+}
+
+/* Font Application */
+@font-face {
+  font-family: "FuturaBT";
+  src: url("../src/fonts/FuturaBookBT.ttf") format("truetype");
+}
+
+/* Optionally, add overflow handling to specific elements if needed */
+html {
+  overflow-x: hidden; /* Prevents horizontal scrolling on the entire page */
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: Segoe UI;
+  overflow-x: hidden;
+}
+.container {
+  width: 100%;
+  max-width: 1260px;
+  padding: 0 15px;
+}
