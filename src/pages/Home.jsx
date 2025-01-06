@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import widdleIcon from "./../assets/waddle_logo.png";
+import omniIcon from "./../assets/logo_isolated.png";
 import "./Home.css";
 import CosmicPixelArt from "../assets/Cosmic-Pixel-Art.png";
 import MysticForestVibes from "../assets/Mystic-Forest-Vibes.png";
@@ -107,8 +108,8 @@ function Home() {
       >
         <div class="container-fluid">
           <a class="navbar-brand d-flex align-items-center" href="#">
-            <img src={widdleIcon} height={70} alt="" />
-            <h5 class="mb-0 navbar-waddle">Waddle</h5>
+            <img src={omniIcon} height={70} alt="" />
+            <h5 class="mb-0 navbar-waddle">Omni</h5>
           </a>
           <button
             class="navbar-toggler"
@@ -284,8 +285,8 @@ function Home() {
               <h1 className="fw-bold">Keep informed</h1>
               <p>
                 Subscribe to our mailing list for updates on new features,
-                drops, collaborations, exciting news & tips on exploring
-                WADDLE's Marketplace!
+                drops, collaborations, exciting news & tips on exploring OMNI's
+                Marketplace!
               </p>
             </div>
             <div className="d-flex justify-content-center align-items-center col-sm-12 col-md-4">
@@ -316,14 +317,14 @@ function Home() {
             {/* Logo and Description */}
             <div className="col-md-4">
               <img
-                src={widdleIcon}
-                alt="Waddle Logo"
+                src={omniIcon}
+                alt="Omni Logo"
                 height={120}
                 className="mb-3"
               />
               <p>
                 Abstracts Premium Marketplace & Launchpad. Buy, sell & explore
-                unique items exclusively on WADDLE.
+                unique items exclusively on Omni.
               </p>
               {/* Social Icons */}
               <div className="d-flex gap-2 social-media-logo">
@@ -363,7 +364,7 @@ function Home() {
           <div className="container ">
             <div className="row">
               <p className="mb-0 col-sm-12 col-md-6">
-                Copyright © 2024 Waddle, LLC | All rights reserved
+                Copyright © 2024 Omni, LLC | All rights reserved
               </p>
               <div className="col-sm-12 col-md-6 text-end">
                 <a href="#" className="text-white text-decoration-none">
