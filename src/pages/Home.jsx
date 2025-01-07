@@ -323,8 +323,8 @@ function Home() {
                 className="mb-3"
               />
               <p>
-                Abstracts Premium Marketplace & Launchpad. Buy, sell & explore
-                unique items exclusively on Omni.
+                Premium Marketplace & Launchpad. Buy, sell & explore unique
+                items exclusively on Omni.
               </p>
               {/* Social Icons */}
               <div className="d-flex gap-2 social-media-logo">
